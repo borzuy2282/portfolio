@@ -196,6 +196,30 @@ section { padding: 100px clamp(24px, 5vw, 80px); max-width: 1100px; margin: 0 au
   background: var(--bg-hover);
   transform: translateY(-3px);
 }
+.project-card--private {
+  cursor: default;
+}
+.project-card--private:hover {
+  transform: none;
+}
+.project-card--private .project-arrow { display: none; }
+.project-badge {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: 3px 8px;
+  border: 1px solid var(--border-hi);
+  border-radius: 3px;
+}
+.project-note {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
 
 .project-top {
   display: flex; align-items: flex-start; justify-content: space-between;

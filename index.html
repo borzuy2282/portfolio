@@ -11,7 +11,6 @@
 </head>
 <body>
 
-<!-- ── NAV ── -->
 <nav>
   <a class="nav-logo" href="#hero">tb.dev</a>
   <ul class="nav-links">
@@ -22,7 +21,6 @@
   </ul>
 </nav>
 
-<!-- ── HERO ── -->
 <section id="hero">
   <p class="hero-prompt"><span>❯</span> tymofii.init()<span id="typed-prompt"></span></p>
   <h1 class="hero-name">Tymofii<br>Barzashvili</h1>
@@ -52,6 +50,49 @@
   </div>
 
   <div class="projects-grid">
+
+    <div class="project-card project-card--private fade-in">
+      <div class="project-top">
+        <div class="project-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+        </div>
+        <span class="project-badge">Private repo</span>
+      </div>
+      <p class="project-name">Hand2Hand</p>
+      <p class="project-note">Source available on request.</p>
+      <p class="project-desc">Full-stack marketplace for buying and selling digital accounts (Steam, Instagram). Automated Steam valuation via 7+ API integrations, real-time WebSocket chat, Stripe payments with webhook lifecycle, and MinIO object storage. JWT + refresh-token auth, OTP email verification, Google OAuth2, and SERIALIZABLE ACID transactions.</p>
+      <div class="project-stack">
+        <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Next.js</span><span class="tag">React</span><span class="tag">PostgreSQL</span><span class="tag">Stripe</span><span class="tag">WebSocket</span>
+      </div>
+    </div>
+
+    <a class="project-card fade-in" href="https://github.com/borzuy2282/Expense-Tracker" target="_blank" rel="noopener">
+      <div class="project-top">
+        <div class="project-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        </div>
+        <svg class="project-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+      </div>
+      <p class="project-name">Expense Tracker API</p>
+      <p class="project-desc">REST API backend for personal expense tracking — category management, transaction logging, and reporting endpoints built with Spring Boot and JPA.</p>
+      <div class="project-stack">
+        <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">REST</span><span class="tag">JPA</span>
+      </div>
+    </a>
+
+    <a class="project-card fade-in" href="https://github.com/borzuy2282/case-converter" target="_blank" rel="noopener">
+      <div class="project-top">
+        <div class="project-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg>
+        </div>
+        <svg class="project-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+      </div>
+      <p class="project-name">Case Converter</p>
+      <p class="project-desc">Lightweight web tool for transforming text between case formats — camelCase, snake_case, kebab-case, and more. Built with TypeScript for instant client-side conversion.</p>
+      <div class="project-stack">
+        <span class="tag">TypeScript</span><span class="tag">React</span><span class="tag">Vite</span>
+      </div>
+    </a>
 
     <a class="project-card fade-in" href="https://github.com/borzuy2282/ToDo" target="_blank" rel="noopener">
       <div class="project-top">
@@ -131,9 +172,9 @@
         <svg class="project-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
       </div>
       <p class="project-name">Train System App</p>
-      <p class="project-desc">Desktop train system simulation built in Java. Models routes, timetables, and station management with an interactive GUI.</p>
+      <p class="project-desc">Desktop train system simulation built in Java. Models routes, timetables, and station management with an interactive CLI.</p>
       <div class="project-stack">
-        <span class="tag">Java</span><span class="tag">GUI</span><span class="tag">OOP</span>
+        <span class="tag">Java</span><span class="tag">CLI</span><span class="tag">OOP</span>
       </div>
     </a>
 
@@ -150,14 +191,15 @@
 
     <div class="exp-item fade-in">
       <div class="exp-meta">
-        <span class="exp-role">ServiceDesk Engineer</span>
+        <span class="exp-role">Service Desk Engineer</span>
         <span class="exp-company">Canal+ Poland</span>
-        <span class="exp-date">Apr 2025 – Now</span>
+        <span class="exp-date">Apr 2025 – Present</span>
       </div>
       <ul class="exp-bullets">
-        <li>Managed and resolved IT tickets in ServiceNow, applying Oracle SQL to diagnose and fix data-layer issues</li>
-        <li>Maintained and improved the internal knowledge base in Confluence, reducing average resolution time</li>
-        <li>Collaborated cross-departmentally to triage incidents and bridge technical and non-technical teams</li>
+        <li>Managed and troubleshooted Linux server environments to maintain optimal system stability and performance</li>
+        <li>Executed complex Oracle SQL queries via ServiceNow to investigate, analyse, and resolve technical incidents</li>
+        <li>Developed automation scripts based on Java, Python and Bash, reducing time spent on repetitive operational tasks</li>
+        <li>Coordinated cross-departmental incident handling using Jira; maintained process documentation in Confluence</li>
       </ul>
     </div>
 
@@ -165,12 +207,25 @@
       <div class="exp-meta">
         <span class="exp-role">Java Backend Developer</span>
         <span class="exp-company">Google Developer Group PJAIT</span>
-        <span class="exp-date">Oct 2024 – Feb 2025</span>
+        <span class="exp-date">Oct 2024 – Apr 2025</span>
       </div>
       <ul class="exp-bullets">
-        <li>Developed backend services for the university's internal mobile application using Java and Spring Boot</li>
+        <li>Designed and delivered backend modules for the university's internal mobile application using Java and Spring Boot</li>
         <li>Contributed to RESTful API design, data modelling, and peer code reviews in a collaborative team</li>
-        <li>Organised and participated in tech events, workshops, and meetups for the developer community</li>
+        <li>Participated in agile development cycles; collaborated with frontend teams via REST API contracts</li>
+        <li>Co-organised tech workshops, meetups, and hackathons for 100+ student community members</li>
+      </ul>
+    </div>
+
+    <div class="exp-item fade-in">
+      <div class="exp-meta">
+        <span class="exp-role">Playout Operator</span>
+        <span class="exp-company">Canal+ Poland</span>
+        <span class="exp-date">Dec 2022 – Apr 2025</span>
+      </div>
+      <ul class="exp-bullets">
+        <li>Oversaw the continuous broadcast of TV channels, managing live transmissions with zero-tolerance for downtime</li>
+        <li>Diagnosed and resolved on-air technical issues in real time under high-pressure, time-critical conditions</li>
       </ul>
     </div>
 
@@ -218,10 +273,12 @@
       <div class="meta-block">
         <h4>// stack</h4>
         <ul>
-          <li>Java / Spring Boot <span>primary</span></li>
-          <li>Python / Django <span>secondary</span></li>
+          <li>Java / Spring Boot / Spring Security <span>primary</span></li>
+          <li>Python / Django · JavaScript / React <span>languages</span></li>
           <li>PostgreSQL · MySQL · Oracle SQL <span>databases</span></li>
-          <li>Docker · Git <span>tooling</span></li>
+          <li>Docker · Git · Linux · Bash <span>infra</span></li>
+          <li>Jira · Confluence · ServiceNow <span>ops</span></li>
+          <li>REST · JWT · RBAC · WebSocket <span>concepts</span></li>
         </ul>
       </div>
       <div class="meta-block">
@@ -257,6 +314,7 @@
     </p>
     <div class="contact-links fade-in">
       <a class="btn btn-primary" href="mailto:tim.barzashvili@icloud.com">Send an email</a>
+      <a class="btn btn-outline" href="tel:+48573816710">+48 573 816 710</a>
       <a class="btn btn-outline" href="https://www.linkedin.com/in/timbarzashvili" target="_blank" rel="noopener">LinkedIn ↗</a>
       <a class="btn btn-outline" href="https://github.com/borzuy2282" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
